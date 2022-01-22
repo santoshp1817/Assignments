@@ -1,0 +1,58 @@
+table {
+  width: 400px;
+  border: 5px;
+}
+th {
+  text-align: left;
+}
+table,
+th,
+td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #fff;
+}
+tr:nth-child(odd) {
+  background-color: #c0c0c0;
+}
+.account {
+  color: blue;
+}
+.balance {
+  display: flex;
+  /* flex-direction: column; */
+}
+.percentage {
+  color: red;
+  font-size: 15px;
+}
+.textdata {
+  color: grey;
+  margin-right: 15px;
+}
+.whole {
+  background-color: black;
+}
+.btndata {
+  background-color: grey;
+  color: 'white';
+}
+.btn {
+  padding-bottom: 15px;
+  display: flex;
+}
+.btn:hover {
+  /* background-color: yellow; */
+  /* color: yellow; */
+}
+
+hr.new4 {
+  border: 1px solid yellow;
+  margin-bottom: -8px;
+}
